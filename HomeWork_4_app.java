@@ -1,5 +1,11 @@
 package geekbrains.Lesson_4.App;
-
+/**
+ * java.level1.lesson2 example of homework
+ *
+ *
+ * @auphtor Isaeva Amina
+ * @version dated June 11,2019
+ */
 import java.util.*;
 
 
@@ -81,7 +87,10 @@ public class Lesson4_app {
     }
 
     boolean  checkwin(char dot) {
-
+    /**
+    * 2.Переделать проверку победы, чтобы она не была реализована просто набором условий,
+    * например, с использованием циклов.
+    * */
        if (checkdiagonals(dot)||checkLines((dot))) return true;
        else return false;
     }
